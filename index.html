@@ -95,6 +95,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(16,38,60,
 .case p{color:var(--grey);font-size:15px;}
 .case .result{margin-top:16px;padding-top:16px;border-top:1px solid var(--line);font-size:14.5px;color:var(--navy);font-weight:500;}
 .logos{margin-top:70px;text-align:center;}
+.logostrip{background:var(--white);padding:44px 0;border-bottom:1px solid var(--line);}
 .logos p{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--grey);margin-bottom:22px;}
 .logos ul{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:14px 34px;max-width:900px;margin:0 auto;}
 .logos li{font-family:var(--serif);font-size:17px;color:#8d94a0;letter-spacing:.02em;}
@@ -195,8 +196,8 @@ footer a:hover{color:var(--bronze-soft);}
       <a href="#leistungen">Leistungen</a>
       <a href="#arbeitsweise">Arbeitsweise</a>
       <a href="#referenzen">Referenzen</a>
-      <a href="#ueber">Über AKS</a>
       <a href="#profil">Profil</a>
+      <a href="#ueber">Über AKS</a>
       <a href="#kontakt" class="nav-cta">Kontakt</a>
     </nav>
   </div>
@@ -223,13 +224,24 @@ footer a:hover{color:var(--bronze-soft);}
   </div>
 </div>
 
+<section class="logostrip">
+  <div class="wrap">
+    <div class="logos" style="margin-top:0">
+      <p>Vertrauen von Unternehmen wie</p>
+      <ul>
+        <li>Renolit</li><li>BioNTech</li><li>Takeda</li><li>Fresenius Kabi</li><li>Biotronik</li><li>Oechsler</li><li>DB Schenker</li><li>ThyssenKrupp</li><li>Paul Hartmann</li><li>Adidas</li><li>Vodafone</li><li>Hella</li><li>Constantia Flexibles</li><li>Fressnapf</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section id="leistungen">
   <div class="wrap">
     <div class="kicker">Leistungen</div>
     <h2 class="section-title">Wofür wir mandatiert werden</h2>
-    <p class="section-intro">Unternehmen mandatieren uns, wenn ein Werk, eine Integration oder ein Programm unter erheblichem Druck steht und Führung gebraucht wird, die Verantwortung übernimmt statt Empfehlungen zu übergeben. Auf diesen sechs Leistungsfeldern sind wir spezialisiert, überwiegend in regulierten Branchen wie MedTech, Pharma und Automotive.</p>
+    <p class="section-intro">Unternehmen mandatieren uns, wenn ein Werk, eine Integration oder ein Programm unter erheblichem Druck steht und Führung gebraucht wird, die Verantwortung übernimmt statt Empfehlungen zu übergeben. Auf diesen sechs Leistungsfeldern sind wir spezialisiert, überwiegend in regulierten Branchen wie MedTech, Pharma und Automotive. Das Ergebnis ist in jedem Fall dasselbe: ein Unternehmen, das wieder liefert, entscheidet und aus eigener Kraft handelt.</p>
     <div class="services-grid">
-      <div class="card"><span class="num">01</span><h3>Turnaround &amp; Restrukturierung (CRO)</h3><p>Wenn das Ergebnis wegbricht, entscheidet die Reihenfolge. Zuerst sichern wir Liquidität und Lieferfähigkeit, anschließend ordnen wir Kostenbasis und Portfolio neu. Wir haben Restrukturierungen bis 450 Mio. € Programmvolumen gesteuert, einschließlich der Gespräche mit Sozialpartnern, Banken und Gesellschaftern.</p></div>
+      <div class="card"><span class="num">01</span><h3>Turnaround &amp; Restrukturierung (CRO)</h3><p>Wenn das Ergebnis wegbricht, entscheidet die Reihenfolge. Zuerst sichern wir Liquidität und Lieferfähigkeit, anschließend ordnen wir Kostenbasis und Portfolio neu. Wir haben Restrukturierungsprogramme bis 150 Mio. € gesteuert und Maßnahmenportfolios von mehr als 450 Mio. € verantwortet, einschließlich der Gespräche mit Sozialpartnern, Banken und Gesellschaftern.</p></div>
       <div class="card"><span class="num">02</span><h3>Interim COO &amp; Geschäftsführung</h3><p>Wir führen Werke und Standorte operativ und mit P&amp;L-Verantwortung, auch in akuten Krisen. Zuletzt etwa ein MedTech-Werk in den Niederlanden, das mit rund 175 offenen Reklamationen vor der Produktionssperre stand.</p></div>
       <div class="card"><span class="num">03</span><h3>Post-Merger-Integration &amp; Carve-outs</h3><p>Nach dem Closing beginnt die eigentliche Arbeit. Wir haben unter anderem zwei deutsche Standorte mit 1.600 Mitarbeitenden zusammengeführt, inklusive SAP-Harmonisierung und der Verlagerung von 400 Stellen.</p></div>
       <div class="card"><span class="num">04</span><h3>Standort-Ramp-up, Verlagerung &amp; Schließung</h3><p>Aufbau, Verlagerung oder geordnete Schließung eines Standorts in Abstimmung mit Behörden, Betriebsrat und Sozialpartnern. Die Lieferfähigkeit gegenüber den Kunden blieb dabei in unseren Mandaten durchgehend erhalten.</p></div>
@@ -243,6 +255,7 @@ footer a:hover{color:var(--bronze-soft);}
   <div class="wrap">
     <div class="kicker">Arbeitsweise</div>
     <h2 class="section-title">Wie wir arbeiten</h2>
+    <p class="section-intro">Drei Schritte, ein Ziel: Ihr Unternehmen zurück in die Handlungsfähigkeit. Sie wissen zu jedem Zeitpunkt, wo Sie stehen, was es kostet und was es bringt.</p>
     <div class="approach-grid">
       <div class="step"><span class="num">Zuerst</span><h3>Analyse &amp; Bestandsaufnahme</h3><p>Am Anfang steht eine strukturierte Bestandsaufnahme von Kennzahlen, Prozessen und Abläufen im Werk, ergänzt um Gespräche auf allen Ebenen der Organisation. Sie erhalten unsere Einschätzung früh, offen und auch dann, wenn sie unbequem ist.</p></div>
       <div class="step"><span class="num">Dann</span><h3>Entscheidungsgrundlagen schaffen</h3><p>Geschäftsführung, Beirat oder Gesellschafter erhalten eine belastbare Entscheidungsvorlage mit Business Case, Risikobewertung und Umsetzungsreihenfolge, verbunden mit einer klaren Empfehlung.</p></div>
@@ -261,37 +274,10 @@ footer a:hover{color:var(--bronze-soft);}
     <h2 class="section-title">Ausgewählte Mandate</h2>
     <p class="section-intro">Vier Beispiele aus über 47 Mandaten, vom familiengeführten Mittelstand bis zum globalen Konzern. Weitere Referenzen und Details stellen wir auf Anfrage vor.</p>
     <div class="cases">
-      <div class="case"><span class="tag">Turnaround · Manufacturing</span><h3>CRO &amp; Transformation Lead · Renolit SE</h3><p>Mehrjähriges C-Level-Mandat in einer familiengeführten Produktionsgruppe mit 2,5 Mrd. € Umsatz. Verantwortlich für die Restrukturierung, die Post-Merger-Integration zweier Standorte (1.600 FTE) und eine Standortverlagerung mit 400 FTE.</p><div class="result">€450M Restrukturierungsprogramm gesteuert · Marge um &gt;6&nbsp;% verbessert</div></div>
+      <div class="case"><span class="tag">Turnaround · Manufacturing</span><h3>CRO &amp; Transformation Lead · Renolit SE</h3><p>Mehrjähriges C-Level-Mandat in einer familiengeführten Produktionsgruppe mit 2,5 Mrd. € Umsatz. Verantwortlich für die Restrukturierung, die Post-Merger-Integration zweier Standorte (1.600 FTE) und eine Standortverlagerung mit 400 FTE.</p><div class="result">€150M Restrukturierungsprogramm gesteuert · Marge um &gt;6&nbsp;% verbessert</div></div>
       <div class="case"><span class="tag">MedTech · Krisenmanagement</span><h3>Interim COO · MedTech-Werk, Niederlande</h3><p>Werkstabilisierung nach gescheitertem Qualitätsmanagement mit rund 175 offenen Reklamationen, unvalidierten Anlagen und drohender Produktionssperre unter ISO 13485.</p><div class="result">Produktionssperre abgewendet · Lieferfähigkeit und Kundenvertrauen wiederhergestellt</div></div>
       <div class="case"><span class="tag">Pharma · Digitalisierung</span><h3>Digitalisierung GMP-Produktion · BioNTech &amp; Takeda</h3><p>Digitale Transformation regulierter Impfstoff- und Pharmaproduktion als technischer Lead und Systemarchitektin, mit MES/PAS-X, elektronischen Batch Records und papierloser Fertigung.</p><div class="result">Vollständig papierlose Produktion · Freigabezeiten um bis zu 50&nbsp;% reduziert</div></div>
       <div class="case"><span class="tag">Automotive → MedTech · Strategie</span><h3>Strategic Advisor · Oechsler, Rumänien</h3><p>Bewertung und Transformationskonzept für den Übergang eines Automotive-Spritzgussstandorts in die hochvolumige MedTech-Fertigung, einschließlich Target Operating Model, ROI-Business-Case und ISO-13485-Readiness.</p><div class="result">Belastbare Entscheidungsgrundlage für Investition und Ramp-up geliefert</div></div>
-    </div>
-    <div class="logos">
-      <p>Vertrauen von Unternehmen wie</p>
-      <ul>
-        <li>Renolit</li><li>BioNTech</li><li>Takeda</li><li>Fresenius Kabi</li><li>Biotronik</li><li>Oechsler</li><li>DB Schenker</li><li>ThyssenKrupp</li><li>Paul Hartmann</li><li>Adidas</li><li>Vodafone</li><li>Hella</li><li>Constantia Flexibles</li><li>Fressnapf</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="ueber">
-  <div class="wrap">
-    <div class="kicker">Über AKS</div>
-    <h2 class="section-title">Wofür wir stehen</h2>
-    <div class="about-grid">
-      <div>
-        <p>In kritischen Phasen verfallen viele Organisationen in den Sicherheitsmodus. Entscheidungen werden vertagt, Projekte verlieren an Geschwindigkeit. Genau dort setzen wir an und bringen Unternehmen zurück in die Umsetzung, mit klaren Prioritäten, hoher Schlagzahl und messbaren Ergebnissen.</p>
-        <p>Unser Maßstab ist einfach. Ein Unternehmen soll besser dastehen, als wir es vorgefunden haben, im Ergebnis, in den Prozessen und in der Organisation. Deshalb verstehen wir uns nicht nur als Umsetzer, sondern auch als Impulsgeber und Sparringspartner für Geschäftsführung, Beirat und Gesellschafter, auf Augenhöhe und mit einer klaren, unabhängigen Position.</p>
-        <p>AKS Interim Consulting ist ein bewusst fokussiertes, eingespieltes Team von vier Beratern. Unsere Mandanten arbeiten unmittelbar mit den Personen zusammen, die sie im Erstgespräch kennenlernen. Für Spezialthemen greifen wir auf ein über Jahre gewachsenes Netzwerk aus Interim Managern, Juristen und Fachexperten zurück.</p>
-        <p>Wir engagieren uns in der DDIM (Dachgesellschaft Deutsches Interim Management), dort auch in den Fachgruppen Projektmanagement, Internationalisierung und Digitalisierung, im VdU (Verband deutscher Unternehmerinnen), bei FidAR (Frauen in die Aufsichtsräte) sowie im PANDA-Netzwerk.</p>
-      </div>
-      <div class="market">
-        <h3>Warum Interim Management?</h3>
-        <p>Der Markt für Interim Management in Deutschland wächst auf rund <b>2,7 Mrd. € Volumen</b> mit etwa <b>12.500 professionellen Interim Managern</b> und einer steigenden Auslastung von 81&nbsp;%.</p>
-        <p>Unternehmen setzen Interim Manager gezielt dort ein, wo Erfahrung sofort wirken muss, etwa in Restrukturierung, Transformation, Vakanzüberbrückung und kritischen Projekten. Erfolgsfaktor ist dabei die Seniorität, nicht die Größe der Beratung.</p>
-        <p class="src">Quelle: DDIM Marktstudie 2026</p>
-      </div>
     </div>
   </div>
 </section>
@@ -350,6 +336,26 @@ footer a:hover{color:var(--bronze-soft);}
       </div>
   </div>
 </section>
+<section id="ueber">
+  <div class="wrap">
+    <div class="kicker">Über AKS</div>
+    <h2 class="section-title">Wofür wir stehen</h2>
+    <div class="about-grid">
+      <div>
+        <p>In kritischen Phasen verfallen viele Organisationen in den Sicherheitsmodus. Entscheidungen werden vertagt, Projekte verlieren an Geschwindigkeit. Genau dort setzen wir an und bringen Unternehmen zurück in die Umsetzung, mit klaren Prioritäten, hoher Schlagzahl und messbaren Ergebnissen.</p>
+        <p>Unser Maßstab ist einfach. Ein Unternehmen soll besser dastehen, als wir es vorgefunden haben, im Ergebnis, in den Prozessen und in der Organisation. Deshalb verstehen wir uns nicht nur als Umsetzer, sondern auch als Impulsgeber und Sparringspartner für Geschäftsführung, Beirat und Gesellschafter, auf Augenhöhe und mit einer klaren, unabhängigen Position.</p>
+        <p>AKS Interim Consulting ist ein bewusst fokussiertes, eingespieltes Team von vier Beratern. Unsere Mandanten arbeiten unmittelbar mit den Personen zusammen, die sie im Erstgespräch kennenlernen. Für Spezialthemen greifen wir auf ein über Jahre gewachsenes Netzwerk aus Interim Managern, Juristen und Fachexperten zurück.</p>
+        <p>Wir engagieren uns in der DDIM (Dachgesellschaft Deutsches Interim Management), dort auch in den Fachgruppen Projektmanagement, Internationalisierung und Digitalisierung, im VdU (Verband deutscher Unternehmerinnen), bei FidAR (Frauen in die Aufsichtsräte) sowie im PANDA-Netzwerk.</p>
+      </div>
+      <div class="market">
+        <h3>Warum Interim Management?</h3>
+        <p>Der Markt für Interim Management in Deutschland wächst auf rund <b>2,7 Mrd. € Volumen</b> mit etwa <b>12.500 professionellen Interim Managern</b> und einer steigenden Auslastung von 81&nbsp;%.</p>
+        <p>Unternehmen setzen Interim Manager gezielt dort ein, wo Erfahrung sofort wirken muss, etwa in Restrukturierung, Transformation, Vakanzüberbrückung und kritischen Projekten. Erfolgsfaktor ist dabei die Seniorität, nicht die Größe der Beratung.</p>
+        <p class="src">Quelle: DDIM Marktstudie 2026</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="contact" id="kontakt">
   <div class="wrap">
@@ -357,7 +363,7 @@ footer a:hover{color:var(--bronze-soft);}
     <h2 class="section-title">Sprechen wir über Ihre Situation.</h2>
     <div class="contact-grid">
       <div>
-        <p>Ein vertrauliches Erstgespräch ist für Sie unverbindlich. Schildern Sie uns Ihre Situation. Sie erhalten eine offene und fundierte Einschätzung, ob und wie wir wirksam unterstützen können.</p>
+        <p>Ein vertrauliches Erstgespräch ist für Sie unverbindlich. Schildern Sie uns Ihre Situation. Sie erhalten kurzfristig eine offene und fundierte Einschätzung, ob und wie wir wirksam unterstützen können, und welchen Mehrwert Sie von uns erwarten dürfen.</p>
         <ul class="contact-list">
           <li><span>E-Mail</span><a data-h="ZWQubWlyZXRuaS1za2FAaWNuaTpvdGxpYW0=" data-o="ZWQubWlyZXRuaS1za2FAaWNuaQ=="></a></li>
           <li><span>Telefon</span><a data-h="NjY5NjY2MzQ3MTk0KzpsZXQ=" data-o="NjY5IDY2NjMgNDcxIDk0Kw=="></a></li>
