@@ -113,6 +113,18 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(16,38,60,
 .fact b{font-weight:600;}
 
 /* About */
+.team-block{margin-top:70px;}
+.team-block h3{font-size:24px;margin-bottom:8px;}
+.team-block .team-intro{color:var(--grey);max-width:720px;margin-bottom:34px;}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+.member{background:var(--white);border:1px solid var(--line);border-top:3px solid var(--bronze);padding:32px 28px;}
+.member .mono{width:64px;height:64px;border-radius:50%;background:var(--navy);color:var(--bronze);font-family:var(--serif);font-size:22px;letter-spacing:.05em;display:flex;align-items:center;justify-content:center;margin-bottom:20px;}
+.member h4{font-family:var(--serif);font-weight:500;font-size:19px;margin-bottom:4px;}
+.member .mrole{font-family:var(--sans);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--bronze);font-weight:600;margin-bottom:14px;}
+.member p{color:var(--grey);font-size:14.5px;margin-bottom:0;}
+.member a{color:var(--navy);font-size:14px;text-decoration:none;border-bottom:1px solid var(--bronze);}
+.member .mlink{margin-top:14px;}
+@media (max-width:900px){.team-grid{grid-template-columns:1fr;}}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:40px;align-items:start;}
 .about-grid p{color:var(--grey);margin-bottom:18px;}
 .market{background:var(--ivory);border:1px solid var(--line);padding:32px 30px;}
@@ -302,6 +314,31 @@ footer a:hover{color:var(--bronze-soft);}
         <p>Der Markt für Interim Management in Deutschland wächst auf rund <b>2,7 Mrd. € Volumen</b> mit etwa <b>12.500 professionellen Interim Managern</b> und einer steigenden Auslastung von 81&nbsp;%.</p>
         <p>Unternehmen setzen Interim Manager gezielt dort ein, wo Erfahrung sofort wirken muss, etwa in Restrukturierung, Transformation, Vakanzüberbrückung und kritischen Projekten. Erfolgsfaktor ist dabei die Seniorität, nicht die Größe der Beratung.</p>
         <p class="src">Quelle: DDIM Marktstudie 2026</p>
+      </div>
+    </div>
+    <div class="team-block">
+      <h3>Das Team</h3>
+      <p class="team-intro">Hinter AKS Interim Consulting steht ein eingespieltes Team, das Mandate gemeinsam trägt, von der Analyse bis zur Umsetzung.</p>
+      <div class="team-grid">
+        <div class="member">
+          <div class="mono">SA</div>
+          <h4>Serkan Akkus</h4>
+          <div class="mrole">Consultant · Projektmanagement International</div>
+          <p>Seit 2022 im Team. Schwerpunkte in Projektkoordination und PMO, Controlling und Reporting sowie Finanzierung, Funding und Kundengewinnung. Mandatserfahrung unter anderem bei Renolit, BioNTech, DB Schenker, Biotronik und Fresenius Kabi.</p>
+        </div>
+        <div class="member">
+          <div class="mono">TI</div>
+          <h4>Tolga Yasin Inan</h4>
+          <div class="mrole">IT &amp; Digitale Lösungen</div>
+          <p>Seit 2024 im Team. Verantwortlich für den digitalen Auftritt, Content und Kundenansprache sowie für KI- und Serverlösungen der AKS und ihrer Mandate.</p>
+          <div class="mlink"><a href="https://www.linkedin.com/in/tolga-yasin-inan-7615161a2/" target="_blank" rel="noopener">LinkedIn-Profil</a></div>
+        </div>
+        <div class="member">
+          <div class="mono">CA</div>
+          <h4>Cihat Akkus</h4>
+          <div class="mrole">Business &amp; Office Management</div>
+          <p>Seit 2024 im Team. Verantwortlich für Backoffice und Terminmanagement, Buchhaltung und Beschaffung sowie Testing und Qualitätssicherung in den Projekten.</p>
+        </div>
       </div>
     </div>
   </div>
