@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AKS Interim">
+  <rect width="64" height="64" rx="12" fill="#10263c"/>
+  <rect x="12" y="34" width="9" height="16" fill="#b08d57" opacity="0.5"/>
+  <rect x="26" y="24" width="9" height="26" fill="#b08d57" opacity="0.75"/>
+  <rect x="40" y="12" width="9" height="38" fill="#b08d57"/>
+  <line x1="8" y1="52" x2="56" y2="52" stroke="#b08d57" stroke-width="2.5"/>
+</svg>
